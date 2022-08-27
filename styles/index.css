@@ -1,0 +1,48 @@
+body {background-color: rgb(255, 255, 255);
+      width: 100%;
+       height: 100%; 
+     }
+
+nav { background-color: rgb(255, 0, 0);
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-between ;
+
+    }
+
+    .link {text-decoration: none;
+    font-size: 25px; 
+    color: snow;
+    font-family: 'ubuntu';
+    margin: auto;
+
+    }
+    
+    .link:hover{font-weight: bolder;}
+
+    #sarake {border: 3px solid black;
+    margin-top: 40px;
+    width: 50%;
+    height: 70%;
+    color: black;
+    text-align: center;
+    margin: 30px;
+    border-radius: 20px; 
+    }
+    img{width: 60%;
+    margin: 40px;
+    border-radius: 60px;}
+
+    #sarake{display: flex;
+    justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+     flex-wrap: wrap;
+}
+
+
+
+
